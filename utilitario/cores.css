@@ -1,0 +1,54 @@
+:root {
+  --red: hsl(0, 100%, 67%);
+  --yellow: hsl(39, 100%, 56%);
+  --green: hsl(166, 100%, 37%);
+  --blue: hsl(234, 85%, 45%);
+  --cinza: #949494;
+
+  /* neutro */
+
+  --White: hsl(0, 0%, 100%);
+  --Pale: hsl(221, 100%, 96%);
+  --Light: hsl(241, 100%, 89%);
+  --Dark: hsl(224, 30%, 27%);
+
+  --opacidade: hsla(0, 100%, 67%, 0.08);
+}
+
+.red {
+  color: var(--red);
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.green {
+  color: var(--green);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.cinza {
+  color: var(--cinza);
+}
+
+/* neutra */
+
+.white {
+  color: var(--White);
+}
+
+.Pale {
+  color: var(--Pale);
+}
+
+.Light {
+  color: var(--Light);
+}
+
+.Dark {
+  color: var(--Dark);
+}

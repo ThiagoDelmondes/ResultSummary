@@ -1,0 +1,107 @@
+body {
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  font-size: 18px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+}
+
+/* item1 */
+
+.item1 {
+  background-color: hsl(241, 81%, 54%);
+  border-radius: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.item1 span {
+  display: block;
+  font-size: 5rem;
+}
+
+.item1 span > span {
+  font-size: 1.2rem;
+  margin-top: -10px;
+}
+
+.item1 h3 {
+  font-size: 2rem;
+}
+
+.result-number {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  display: grid;
+  margin: 10px auto 30px;
+
+  background-image: linear-gradient(
+    hsl(241, 81%, 54%) 80%,
+    hsl(252, 100%, 67%)
+  );
+
+  background-image: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+
+.result-number span {
+  align-self: center;
+}
+
+/* item 2 */
+
+.item2 .button {
+  display: block;
+  background-color: var(--Dark);
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: var(--White);
+  margin: 40px 0px;
+}
+
+.button:hover {
+  background: hsla(256, 72%, 46%, 1);
+}
+
+ul li {
+  background-color: var(--opacidade);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li + li {
+  background-color: hsla(39, 100%, 56%, 0.08);
+}
+
+ul li + li + li {
+  background-color: hsla(166, 100%, 37%, 0.08);
+}
+
+ul li + li + li + li {
+  background-color: hsla(234, 85%, 45%, 0.08);
+}
+
+ul li div:nth-child(1) {
+  display: flex;
+  gap: 10px;
+}

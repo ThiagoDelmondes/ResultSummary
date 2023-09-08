@@ -1,0 +1,13 @@
+@media (max-width: 750px) {
+  body {
+    height: auto;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .item1 {
+    border-radius: 0px 0px 2rem 2rem;
+  }
+}

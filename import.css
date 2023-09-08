@@ -1,0 +1,11 @@
+@import "./css/global.css";
+
+@import "./css/style.css";
+
+/* utilitarios */
+@import "./utilitario/cores.css";
+@import "./utilitario/tipografia.css";
+@import "./utilitario/padding.css";
+
+/* mobile */
+@import "./css/mobile.css";

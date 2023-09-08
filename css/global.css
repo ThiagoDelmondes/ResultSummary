@@ -1,0 +1,22 @@
+h1,
+h2,
+p,
+h3,
+body,
+a,
+ul,
+span {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
